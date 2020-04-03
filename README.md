@@ -6,4 +6,4 @@ Group Members: Cameron Pipes, Devin Bailey, Jameson Hale, Uriel Galarza, Kirtana
 [https://kn-99.github.io/FeelGoodInc/src/homepage.html](https://kn-99.github.io/FeelGoodInc/src/homepage.html)
 
 ## To do list for M3
-[ ] Check Box
+- [ ] Open a pull request
