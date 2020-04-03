@@ -16,7 +16,7 @@ Also if anyone has questions about the extent of the functionality just ask on t
 
 - [ ] **Testing Plan for the next Milestone** (I'm not sure what this is exactly but I think it was somewhere on the M3 instructions) 
 
-- [ ] **Homepage **
+- [ ] **Homepage**
          Should just be HTML and CSS stuff
          
 - [ ] **Immediate Help button**
