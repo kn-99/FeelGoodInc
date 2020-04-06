@@ -60,7 +60,7 @@ footer{
 	color: white;
 	border-top: 1px solid #2b2b2b; 
 	clear: both;
-	position: fixed;
+	position: relative;
   	bottom: 0px;
   	font-size: 10px !important;
   	width: 100% !important;
