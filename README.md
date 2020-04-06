@@ -9,10 +9,10 @@ Group Members: Cameron Pipes, Devin Bailey, Jameson Hale, Uriel Galarza, Kirtana
 I made a To Do list for the stuff that we have to do for Milestone 3. These are just ideas of what should be on each page based on what we talked about a while ago so if you want to change them, go ahead. Also, add anything that I'm missing or that I got wrong
 Also if anyone has questions about the extent of the functionality just ask on the groupme and we can come up with a list of functionality questions that we need to ask her since most of this stuff doesnt really need to work fully.
 
-- [ ] **Milestone 3 website**
+[ ] **Milestone 3 website**
           I'm not really sure what the extent of this is so i don't really know how many people need to work on this part
 
-- [ ] **Video and script** (I think we decided that all of us shuold work on this part?) 
+- [x] **Video and script** (I think we decided that all of us shuold work on this part?) 
 
 - [ ] **Testing Plan for the next Milestone** (I'm not sure what this is exactly but I think it was somewhere on the M3 instructions) 
 
