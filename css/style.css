@@ -1,10 +1,13 @@
 html {
-  scroll-behavior: smooth;
+  	scroll-behavior: smooth;
+	position: relative;
 }
 
 body{
   	background: linear-gradient(89.84deg, #ACE6FF 0.09%, #A7FFDA 99.92%);
   	scroll-behavior: smooth;
+	display: block;
+	position: relative;
 }
 
 nav{
@@ -41,7 +44,7 @@ nav a:hover {
 
 .container{
 	color: black;
-	margin: 50px;
+	position:relative !important;
 }
 
 #main-image{
