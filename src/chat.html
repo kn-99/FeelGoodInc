@@ -48,13 +48,56 @@ ChatBot
 </div>
 
 <div class= "container">
-  <p>Rest of Content...</p>
+  <script>
+  var messageList = ["I'm sorry! What happened?", "Tomorrow will be better and there are so many things you can do to feel better!", "If you look at the above resources, you can find information on what you are going through. Here are a few helpful links: \nwww.feelgoodinc.com/resource1 \nwww.feelgoodinc.com/resource2 \nwww.feelgoodinc.com/resource3", "Glad to Help! Bye"];
+  var counter = 0;
+  function myFunction() {
+    var userWrapper = document.createElement("div");
+    userWrapper.id = "wrapperDiv";
+
+    var userName = document.getElementById("userInput").value;
+    var userElem = document.createElement("div");
+    var userText = document.createTextNode(userName);
+    userElem.appendChild(userText);
+
+
+    userWrapper.appendChild(userElem);
+    document.getElementById("messageList").appendChild(userWrapper);
+    userElem.id = "userDiv";
+
+    var cbWrapper = document.createElement("div");
+    cbWrapper.id = "wrapperDiv";
+
+    var newElem = document.createElement("div");
+    var newText = document.createTextNode(messageList[counter]);
+    newElem.appendChild(newText);
+
+    cbWrapper.appendChild(newElem);
+    document.getElementById("messageList").appendChild(cbWrapper);
+    newElem.id = "cbDiv";
+
+    counter++;
+    if(counter > messageList.length - 1){
+      counter = 0;
+    }
+    var scroller = document.getElementById("messageList");
+    scroller.scrollTop = scroller.scrollHeight;
+  }
+  </script>
+
+  <ul id="messageList"><div id="wrapperDiv"><div id="cbDiv">Hello! How are you today?</div></div></ul>
+  <input type='text' id='userInput' />
+  <button class = "sendButton" onclick="myFunction()">Send</button>
+  
+
 </div>
 
-
-</body>
-
+<br>
+<br>
 <footer>
   HCI term group project </br> Group Members: Cameron Pipes, Devin Bailey, Jameson Hale, Uriel Galarza, Kirtana Nidamarti
 </footer>
+</body>
+
+
 </html>
