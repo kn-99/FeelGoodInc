@@ -1,3 +1,11 @@
+
+function searchSubmit() {
+    alert("yes");
+    document.getElementById("myButton").onclick = function () {
+        location.href = "search.html";
+    };
+}
+
 function getHelpNow() {
     console.log('Help requested');
     alert("We're here for you <3 Give us a call\n000-000-0000")
@@ -11,3 +19,4 @@ function getHelpNow() {
     }
     */
 } 
+

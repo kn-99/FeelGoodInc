@@ -29,6 +29,12 @@ nav a:hover {
   	font-weight: bold !important;
 }
 
+#search-submit {
+	background: #99E0FF;
+	color: black;
+	border-color: #A7FFDA;
+}
+
 .current { 
 	background: -webkit-linear-gradient(left, #99E0FF, #A7FFDA) !important;
   	-webkit-background-clip: text !important;
