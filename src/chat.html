@@ -75,6 +75,8 @@ ChatBot
     cbWrapper.appendChild(newElem);
     document.getElementById("messageList").appendChild(cbWrapper);
     newElem.id = "cbDiv";
+	  
+    document.getElementById("userInput").value = "";	
 
     counter++;
     if(counter > messageList.length - 1){
@@ -86,7 +88,7 @@ ChatBot
   </script>
 
   <ul id="messageList"><div id="wrapperDiv"><div id="cbDiv">Hello! How are you today?</div></div></ul>
-  <input type='text' id='userInput' />
+  <input type='text' id='userInput' placeholder="Type Message Here..."/>
   <button class = "sendButton" onclick="myFunction()">Send</button>
   
 
