@@ -45,6 +45,7 @@ nav a:hover {
 .container{
 	color: black;
 	position:relative !important;
+	margin:50px !important;
 	margin-top: -30px !important;
 }
 
@@ -86,7 +87,7 @@ nav a:hover {
   	padding:0px !important;
   	padding-bottom: 20px !important;
 	display: inline-block !important;
-	border: 3px solid #000000 !important;
+	border: 2px solid #000000 !important;
 	box-sizing: border-box !important;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25) !important;
 	border-radius: 10px !important;
@@ -96,7 +97,7 @@ nav a:hover {
 	float:right !important;
 	width: 15% !important;
 	background-color: #99E0FF !important;
-  	border: 3px solid black !important;
+  	border: 2px solid black !important;
   	z-index: 3 !important;
   	position: absolute;
   	right: 15px !important;
@@ -137,7 +138,7 @@ nav a:hover {
 	width: 85% !important;
 	padding: 5px !important;
 	padding-left: 15px !important;
-	border: 3px solid black;
+	border: 2px solid black;
 	z-index: 2 !important;
 	position: absolute;
   	left: 15px !important;
