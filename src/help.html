@@ -48,7 +48,56 @@ Help Near You
 </div>
 
 <div class= "container">
-  <p>Rest of Content...</p>
+	
+  <script>
+    var Names = ["Wellness Center", "PTSD Care", "General Psychiatry"];
+    var Addresses = ["123 Wellness Drive", "3090 Care Road", "403 Sunshine Street"];
+    var Phones = ["000-000-0000", "000-000-0000", "000-000-0000"];
+     function myFunction() {
+        var mapImg = document.createElement("img");
+        mapImg.id = "mapImg";
+        mapImg.src = "../images/map_screenshot.png"
+        mapImg.alt = "Sample Map"
+
+        document.getElementById("map_img").appendChild(mapImg);
+
+        for(i = 0; i<3; i++){
+          var nameElem = document.createElement("h5");
+          var nameText = document.createTextNode(Names[i]);
+          nameElem.appendChild(nameText);
+          document.getElementById("card").appendChild(nameElem);
+
+          var addrElem = document.createElement("p");
+          var addrText = document.createTextNode("Address: " + Addresses[i]);
+          addrElem.appendChild(addrText);
+          document.getElementById("card").appendChild(addrElem);
+
+          var phoneElem = document.createElement("p");
+          var phoneText = document.createTextNode("Phone: " + Phones[i]);
+          phoneElem.appendChild(phoneText);
+          document.getElementById("card").appendChild(phoneElem);
+        }
+     }
+  </script>
+
+  
+  <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Enter Zip Code" aria-label="Enter Zip Code" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+     <button class="input-group-text" id="basic-addon2" onclick="myFunction()">Search</button>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div id = "map_img">
+      </div>
+    </div>
+    <div class="col">
+      <div id = "card">
+      </div>
+    </div>
+  </div>
 </div>
 
 
