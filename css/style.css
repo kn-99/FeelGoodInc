@@ -105,6 +105,10 @@ nav a:hover {
 	padding: 5px !important;
 }
 
+.sendButton:hover{
+	background-color: #62CFFF !important;
+}
+
 #userDiv{
 	border-radius: 25px;
 	background: #BDEBFF !important;
@@ -148,6 +152,11 @@ nav a:hover {
 #wrapperDiv{
 	width:100% !important;
 	display: inline-block !important;
+}
+
+#mapImg{
+	width:100%;
+	border: 4px solid black;
 }
 
 footer{
