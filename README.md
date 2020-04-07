@@ -21,17 +21,17 @@ Also if anyone has questions about the extent of the functionality just ask on t
 - [ ] **Homepage**
          Should just be HTML and CSS stuff
          
-- [ ] **Immediate Help button**
+- [x] **Immediate Help button**
           clicking the help button should create a pop up or something else that will get the users attention that gives the user a fake phone number or something like that. we need to add this to all the pages and. I'm pretty sure this can be done with a few lines of javascript to make an alert box
           
-- [ ] **Informative Resources**
+- [x] **Informative Resources**
           Add 6 static HTML pages that have information about each of the items on the dropdown from the nav bar. Whoever does this can add, remove, or change any of the resources from the list but make sure that you change them on all the pages. Also, the pages that these dropdown items connect to need to be added to the href part of the nav bar for each item on all the current pages. 
           
  
 - [ ] **Help Near You**
         the user Should be able to give in input like a zip code which should give them a map or just a list of doctors/therapists near them that can help them with the fake name, address and maybe a phone number. This shouldnt need to function, it should be fine if the list is the same no matter what the user types but I'll make with the prof just incase  
 
-- [ ] **Chat Bot** - Kirtana (I have a bit of functional code for this but its not that great so if anyone else wants to work on this instead of mr, I'm good with that)
+- [x] **Chat Bot** - Kirtana (I have a bit of functional code for this but its not that great so if anyone else wants to work on this instead of mr, I'm good with that)
         This basically just goes through a loop of things that the chat bot says everytime no matter what the user inputs, I don't think it needs to function more than that but I'll ask the prof in case. If anyone wants to make this more complex just for fun or you just want to work on this part let me know.
 
 - [ ] **Search** 
