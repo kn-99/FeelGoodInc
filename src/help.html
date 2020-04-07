@@ -54,6 +54,7 @@ Help Near You
     var Addresses = ["123 Wellness Drive", "3090 Care Road", "403 Sunshine Street"];
     var Phones = ["000-000-0000", "000-000-0000", "000-000-0000"];
      function myFunction() {
+	document.getElementById("map_img").innerHTML = "";
         var mapImg = document.createElement("img");
         mapImg.id = "mapImg";
         mapImg.src = "../images/map_screenshot.png"
@@ -61,6 +62,7 @@ Help Near You
 
         document.getElementById("map_img").appendChild(mapImg);
 
+	document.getElementById("card").innerHTML = "";
         for(i = 0; i<3; i++){
           var nameElem = document.createElement("h5");
           var nameText = document.createTextNode(Names[i]);
