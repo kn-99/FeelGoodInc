@@ -44,6 +44,24 @@ nav a:hover {
 	margin: 50px;
 }
 
+#main-image{
+	height: 100px;
+	width: 100px;
+
+}
+
+#help-now{
+	background: #ffccff;
+	text-align: center;
+	font-size: 17px;
+
+	border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 200px;
+  height: 150px; 
+}
+
 .dropdown-menu{
 	width: 100% !important;
 }
