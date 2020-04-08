@@ -183,5 +183,10 @@ footer{
 	width: 100%;  /* The width is the width of the web page */
  }
 
-
+#home_img{
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	border: 4px solid black;
+}
 
